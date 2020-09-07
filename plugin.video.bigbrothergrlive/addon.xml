@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.bigbrothergrlive" name="Big Brother Greece Live" version="1.0.0" provider-name="SimpleKodi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Big Brother Greece live streaming for Kodi.</summary>
+    <description lang="en">Requires VPN for use outside Greece.</description>
+    <disclaimer lang="en">Use it at your own risk.</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <website>https://www.skaitv.gr</website>
+    <email>SimpleKodi@hotmail.com</email>
+  </extension>
+</addon>
